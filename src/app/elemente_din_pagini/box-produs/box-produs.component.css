@@ -1,0 +1,129 @@
+.produs-card {
+    max-width: 350px;
+    padding: 0.5em;
+    border-radius: 15px;
+    margin: 0.5em;
+    margin-bottom: 2em;
+    background-color: rgba(102, 153, 204, 0.351);
+  }
+
+*{
+  border-radius: 15px;
+}
+
+.p1{
+  font-size: larger;
+}
+
+.p2{
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
+button{
+   width: 100px;
+   height: 45px;
+   text-align: center;
+   padding: 0;
+}
+
+form {
+  text-align: right;
+  display: inline-block;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+.hov:hover{
+  cursor: pointer;
+}
+
+.hov{
+  width: 130px;;
+}
+
+form #decrease {
+  border-radius: 8px 0 0 8px;
+  height: 40px;
+  float: left;
+}
+
+form #increase {
+  border-radius: 0 8px 8px 0;
+  height: 40px;
+   float:right;
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40.5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.align-border{
+  border-radius: 0px;
+}
+
+.cursor-none{
+  cursor: default;
+}
+
+.btn{
+ float:right;
+ padding-left: 50px;
+}
+
+mat-card{
+  display:inline-flex;
+  padding-left: 1.7%;
+  padding-top: 20px;
+}
+
+.backimage{
+  background-color: #F7EADA;
+  width: auto;
+  height: auto;
+}
+.cent{
+  margin: auto;
+  width: 50%;
+}
+.bottom-padding{
+  padding-bottom:20px;
+  padding-top: 30px;
+}

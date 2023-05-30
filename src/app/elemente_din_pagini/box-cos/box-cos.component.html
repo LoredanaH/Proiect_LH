@@ -1,0 +1,68 @@
+<section class="cart_section">
+  <div class="container">
+    <br>
+    <h1>Coș</h1>
+    <br>
+    <div *ngIf="getCartDetails">
+      <table>
+        <tr>
+          <th>Nume</th>
+          <th>Poză</th>
+          <th>Preț</th>
+          <th>Cantitate</th>
+          <th>Sub Total</th>
+          <th>Șterge produs</th>
+        </tr>
+        <tr *ngFor="let getCartDetail of getCartDetails">
+          <td>{{getCartDetail.nume}}</td>
+
+          <td><img src="{{getCartDetail.poza}}" alt="poza" class="poza-mai-mica"></td>
+
+          <td>{{getCartDetail.pret}} {{getCartDetail.moneda}}</td>
+
+          <td>
+            <div>
+              <form>
+                <div class="value-button color" id="decrease"
+                  (click)="decreaseCantitate(getCartDetail.id,getCartDetail.cantitate)" value="Decrease Cantitate">-
+                </div>
+                <input class="align-border cursor-none" type="number" id="number" value={{getCartDetail.cantitate}} />
+                <div class="value-button color" id="increase"
+                  (click)="increaseCantitate(getCartDetail.id, getCartDetail.cantitate)" value="Increase Cantitate">+
+                </div>
+              </form>
+            </div>
+          </td>
+          <td>
+            {{getCartDetail.cantitate *getCartDetail.pret | number}} lei
+          </td>
+          <td><button type="button" class="delete" (click)="singleDelete(getCartDetail.id)">
+              <i class="fa fa-trash">X</i>
+            </button></td>
+        </tr>
+      </table>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Total - {{total}} lei
+
+          </h3>
+        </div>
+<br>
+        
+          <button type="button" class="cump text-right" >
+            <i class="fa"></i>Cumpărare produse
+          </button>
+    
+
+       <div class="sterg">
+          <button type="button" class="removeall" (click)="removeAll()">
+            <i class="fa fa-trash"></i>Șterge toate produsele
+          </button>
+       </div>
+      
+        
+      </div>
+    </div>
+  </div>
+</section>

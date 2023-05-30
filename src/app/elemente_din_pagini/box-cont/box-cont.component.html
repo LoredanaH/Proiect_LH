@@ -1,0 +1,35 @@
+<div class="arrange">
+
+    <h1>Cont</h1>
+
+    <mat-form-field class="ar">
+        <mat-label>Nume</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field class="ar">
+        <mat-label>Prenume</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field class="ar">
+        <mat-label>Email</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <br>
+    <div class="example-container">
+        <mat-form-field class="ar">
+            <mat-label>Parolă</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
+    </div>
+    <br>
+    <button class="button" mat-raised-button>Înscriere</button>
+    <button class="button btn" mat-raised-button>Autentificare</button>
+
+
+</div>

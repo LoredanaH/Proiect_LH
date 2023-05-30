@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "default": "proiectlh-123",
+    "hb": "proiectlh-123"
+  },
+  "targets": {
+    "proiectlh-123": {
+      "hosting": {
+        "app": [
+          "proiectlh-123"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "deploy": {
+    "app": "app",
+    "no-options": true
+  }
+}

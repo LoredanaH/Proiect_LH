@@ -1,0 +1,98 @@
+[
+    {
+    "id":1,
+    "poza":"assets/images/gresie.jpg",
+    "nume":"Gresie interior gri",
+    "pret":99,
+    "moneda":"lei/m2",
+    "cantitate":0
+    },
+    {
+    "id":2,
+    "poza":"assets/images/faianta.jpg",
+    "nume":"Faianță albastră",
+    "pret":40,
+    "moneda":"lei/m2",
+    "cantitate":0
+    },
+    {
+    "id":3,
+    "poza":"assets/images/marmura.jpg",
+    "nume":"Placă marmură",
+    "pret":450,
+    "moneda":"lei",
+    "cantitate":0
+    },
+    {
+    "id":4,
+    "poza":"assets/images/piatra_decorativa.jpg",
+    "nume":"Piatră decorativă",
+    "pret":80,
+    "moneda":"lei/m2",
+    "cantitate":0
+    },
+    {
+    "id":5,
+    "poza":"assets/images/cada_baie.jpg",
+    "nume":"Cadă baie",
+    "pret":750,
+    "moneda":"lei",
+    "cantitate":0
+    },
+    {
+    "id":6,
+    "poza":"assets/images/vopsea.jpg",
+    "nume":"Vopsea verde",
+    "pret":169,
+    "moneda":"lei",
+    "cantitate":0
+    },
+    {
+    "id":7,
+    "poza":"assets/images/parchet.jpg",
+    "nume":"Parchet",
+    "pret":64,
+    "moneda":"lei/m2",
+    "cantitate":0
+    },
+    {
+    "id":8,
+    "poza":"assets/images/usa.jpg",
+    "nume":"Ușă interior",
+    "pret":700,
+    "moneda":"lei",
+    "cantitate":0
+    },
+    {
+    "id":9,
+    "poza":"assets/images/corp_iluminat.png",
+    "nume":"Corp de iluminat",
+    "pret":660,
+    "moneda":"lei",
+    "cantitate":0
+    },
+    {
+    "id":10,
+    "poza":"assets/images/intrerupator.jpg",
+    "nume":"Intrerupătoare",
+    "pret":9,
+    "moneda":"lei",
+    "cantitate":0
+    },
+    {
+    "id":11,
+    "poza":"assets/images/oglinda.jpg",
+    "nume":"Oglindă",
+    "pret":480,
+    "moneda":"lei",
+    "cantitate":0
+    },
+    {
+    "id":12,
+    "poza":"assets/images/pavaj.jpg",
+    "nume":"Pavaj",
+    "pret":47,
+    "moneda":"lei/m2",
+    "cantitate":0
+    }
+]

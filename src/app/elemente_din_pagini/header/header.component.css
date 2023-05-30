@@ -1,0 +1,33 @@
+nav {
+    background-color: #6699CC;
+    padding: 10px;
+}
+.logo{
+    width: 120px;
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+    position: relative;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pad-r{
+    padding-right: 100px;
+}
+
+.padd{
+    padding-right: 30px;
+}

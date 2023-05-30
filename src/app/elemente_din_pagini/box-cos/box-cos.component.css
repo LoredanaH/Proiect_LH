@@ -1,0 +1,158 @@
+
+.cart_section{
+  padding:10px 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+table{
+  font-family:arial,
+       sans-serif;
+  border-collapse:collapse;
+  width:100%;
+}
+
+td,
+th{
+  border:1px solid#dddddd;
+  text-align:center;
+  padding:20px;
+}
+
+tr:nth-child(even){
+  background-color:
+      #dddddd;
+}
+
+.btn{
+  background:
+    #3275e1;
+  border-radius:30%;
+  font-size:50px;
+  color:#fff;
+  margin:0 8px;
+  width: 30px;
+  height: 30px;
+  
+}
+
+.cart_sectionh3{
+  margin-top:10px;
+  font-size:22px;
+}
+
+.delete{
+  border: none;
+  cursor:pointer;
+  width: 60px;
+  height: 40px;
+  background-color: #ff6262d7;
+  font-size:20px;
+  color:#ffffff;
+  border-radius: 10px;
+}
+
+.removeall{
+  background:#ff6262d7;
+  color:#fff;
+  font-weight:700;
+  border:1px solid#ff6262d7;
+  padding:10px 10px;
+  border-radius:20px;
+  margin-top:15px;
+}
+
+.poza-mai-mica{
+  width: 130px;
+  height: 90px;
+}
+
+.color{
+  color: white;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+
+form #decrease {
+  border-radius: 8px 0 0 8px;
+  background-color: #3275e1;
+  height: 41px;
+}
+
+form #increase {
+  border-radius: 0 8px 8px 0;
+  background-color: #3275e1;
+  height: 41px;
+}
+
+form #input-wrap {
+  margin: 0px;
+  padding: 2px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40.5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+.align-border{
+  border-radius: 0px;
+}
+
+.cursor-none{
+  cursor: default;
+}
+
+.btn{
+  padding-left: 90px;
+}
+
+.sterg{
+  float: right;
+  display: inline;
+}
+
+.cump{
+  background:#00c885;
+  color:#fff;
+  font-weight:700;
+  border:1px solid#00c885;
+  padding:10px 10px;
+  border-radius:20px;
+  margin-top:15px;
+  /*width: 290px;*/
+  height: 70px;
+}

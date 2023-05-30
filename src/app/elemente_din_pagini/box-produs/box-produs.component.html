@@ -1,0 +1,27 @@
+<div  class="backimage bottom-padding">
+<mat-card  *ngFor="let product of productList" class="produs-card">
+    <img class="imagine" mat-card-image [src]="product.poza" alt="Photo">
+   <br>
+    <mat-card-content>
+      <p class="p1">{{product.nume}}</p>
+      <p class="p2">{{product.pret}} {{product.moneda}}</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <form>
+          <div class="value-button" id="decrease" (click)="decreaseValue(product)" value="Decrease Value">-</div>
+          <input class="align-border cursor-none" type="number" id="number" value={{product.cantitate}} />
+          <div class="value-button" id="increase" (click)="increaseValue(product)" value="Increase Value">+</div>
+        </form>
+  
+        <div class="btn">
+          <button mat-button class="hov" (click)="addToCart(product)">Adaugă în Coș</button>
+        </div>
+
+    </mat-card-actions>
+  </mat-card>
+</div>
+
+
+
+  
